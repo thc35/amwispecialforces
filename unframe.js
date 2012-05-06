@@ -52,7 +52,6 @@ javascript:(function(){
 				'<div id="sc_bookmark" >'+
 				
 				'</div>'+
-v style="font-size: 20px; color: rgb(0, 241, 0);">Tools</div><br/>'+
                                 '<a href="#" id="giftblaster" class="sexy_button_new"><span><span>Gift Blaster</span></span></a> '+
                                 '<a href="#" id="chucker" class="sexy_button_new"><span><span>Chucker</span></span></a> '+
                                 '<a href="#" id="giftcollector" class="sexy_button_new"><span><span>GiftColector</span></span></a> '+
@@ -98,8 +97,8 @@ v style="font-size: 20px; color: rgb(0, 241, 0);">Tools</div><br/>'+
 					alert('No Script Found!');
 				}
 
-			});
-				bod.find('#giftblaster').unbind('click').click(function(){var a = document.createElement("script");a.type = "text/javascript";
+                         });
+                                bod.find('#giftblaster').unbind('click').click(function(){var a = document.createElement("script");a.type = "text/javascript";
                                 a.src = "http://spocklet.com/bookmarklet/giftblaster.js?" + Math.random();
                                 hea[0].appendChild(a);
                         });

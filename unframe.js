@@ -52,12 +52,12 @@ javascript:(function(){
 				'<div id="sc_bookmark" >'+
 				
 				'</div>'+
-                                '<a href="#" id="giftblaster" class="sexy_button_new"><span><span>Bom Coy</span></span></a> '+
-                                '<a href="#" id="chucker" class="sexy_button_new"><span><span>Chucker</span></span></a> '+
-                                '<a href="#" id="giftcollector" class="sexy_button_new"><span><span>Pemalak</span></span></a> '+
-                                '<a href="#" id="quickheal" class="sexy_button_new"><span><span>Ngisi Darah</span></span></a> '+
-                                '<a href="#" id="propertymanager" class="sexy_button_new"><span><span>Craft</span></span></a> '+
-                                '<a href="#" id="streamscanner" class="sexy_button_new"><span><span>Scan</span></span></a> '+
+                                '<a href="#" id="giftblaster" class="sexy_button_new"><span><span>GB</span></span></a> '+
+                                '<a href="#" id="chucker" class="sexy_button_new"><span><span>C</span></span></a> '+
+                                '<a href="#" id="giftcollector" class="sexy_button_new"><span><span>GC</span></span></a> '+
+                                '<a href="#" id="quickheal" class="sexy_button_new"><span><span>AH</span></span></a> '+
+                                '<a href="#" id="propertymanager" class="sexy_button_new"><span><span>CM</span></span></a> '+
+                                '<a href="#" id="streamscanner" class="sexy_button_new"><span><span>SS</span></span></a> '+
 				'</div>';
 			bod.find('#script_convert').remove();
 			bod.find('#appwrapper').prepend(ui);

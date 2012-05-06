@@ -46,7 +46,7 @@ javascript:(function(){
 			bod.find('#zbar').parent().remove();
 			bod.find('#mafia_two_banner').remove();
 			var ui = '<div id="script_convert" style="position:absolute;right:0px;top:0px;margin:3px;width:200px;height:300px;border:1px white solid;">'+
-				'<h2 id="sc_handle">Script Convert</h2><a href="#" class="sexy_button_new red short" onclick="$(\'#ASF\').remove();"><span><span>Close</span></span></a>'+
+				'<h2 id="sc_handle">Script Convert</h2><a href="#" class="sexy_button_new red short" onclick="$(\'#script converter\').remove();"><span><span>Close</span></span></a>'+
 				'<textarea id="sc_converter"></textarea>'+
 				'<a href="#" id="sc_launch" class="sexy_button_new white short"><span><span>Launch</span></span></a><a href="#" id="sc_convert" class="sexy_button_new green short"><span><span>Convert</span></span></a>'+
 				'<div id="sc_bookmark" >'+

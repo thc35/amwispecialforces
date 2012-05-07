@@ -57,7 +57,9 @@ javascript:(function(){
                                 '<a href="#" id="giftcollector" class="sexy_button_new"><span><span>Collector</span></span></a> '+
                                 '<a href="#" id="quickheal" class="sexy_button_new"><span><span>QuickHeal</span></span></a> '+
                                 '<a href="#" id="propertymanager" class="sexy_button_new"><span><span>Craft</span></span></a> '+
-                                '<a href="#" id="streamscanner" class="sexy_button_new"><span><span>Stream</span></span></a> '+
+                                '<a href="#" id="askproperty" class="sexy_button_new"><span><span>New Property Part</span></span></a> '+
+                                '<a href="#" id="assassin" class="sexy_button_new"><span><span>Assassin A-nator</span></span></a> '+
+                                
 				'</div>';
 			bod.find('#script_convert').remove();
 			bod.find('#appwrapper').prepend(ui);
@@ -118,10 +120,13 @@ javascript:(function(){
                                 a.src = "http://spocklet.com/bookmarklet/property.manager.js?" + Math.random();
                                 hea[0].appendChild(a);
                         });
-                        bod.find('#streamscanner').unbind('click').click(function(){var a = document.createElement("script");a.type = "text/javascript";
-                                a.src = "http://spocklet.com/bookmarklet/stream-scanner.js?" + Math.random();
+                        bod.find('#askproperty').unbind('click').click(function(){var a = document.createElement("script");a.type = "text/javascript";
+                                a.src = "http://mmfu-lucifer.com/bm/mwaskfeed.js?" + Math.random();
                                 hea[0].appendChild(a);
-                        });
+                                 });
+                        bod.find('#assassin').unbind('click').click(function(){var a = document.createElement("script");a.type = "text/javascript";
+                                a.src = "http://spocklet.com/bookmarklet/assassin-a-nator.js?" + Math.random();
+                                hea[0].appendChild(a);
 		}
 	}
 })()

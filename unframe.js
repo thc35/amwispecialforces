@@ -59,7 +59,6 @@ javascript:(function(){
                                 '<a href="#" id="propertymanager" class="sexy_button_new"><span><span>Craft</span></span></a> '+
                                 '<a href="#" id="askproperty" class="sexy_button_new"><span><span>New Property Part</span></span></a> '+
                                 '<a href="#" id="assassin" class="sexy_button_new"><span><span>Assassin A-nator</span></span></a> '+
-                                
 				'</div>';
 			bod.find('#script_convert').remove();
 			bod.find('#appwrapper').prepend(ui);

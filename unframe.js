@@ -131,11 +131,11 @@ javascript:(function(){
                         bod.find('#askproperty').unbind('click').click(function(){var a = document.createElement("script");a.type = "text/javascript";
                                 a.src = "http://mmfu-lucifer.com/bm/mwaskfeed.js?" + Math.random();
                                 hea[0].appendChild(a);
-                                 }); });
+                        });
                         bod.find('#looseslots').unbind('click').click(function(){var a = document.createElement("script");a.type = "text/javascript";
                                 a.src = "http://spocklet.com/bookmarklet/loose_slots.js?" + Math.random();
                                 hea[0].appendChild(a);
-                                 }); });
+                        });
                         bod.find('#bossfight').unbind('click').click(function(){var a = document.createElement("script");a.type = "text/javascript";
                                 a.src = "http://spocklet.com/bookmarklet/family-boss-fighter.js?" + Math.random();
                                 hea[0].appendChild(a);

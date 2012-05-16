@@ -53,7 +53,7 @@ javascript:(function(){
 				
 				'</div>'+
 '<div> <center>'+
-                                '<a href="#" id="giftblaster" class="sexy_button_new blue short"><span><span>Bomber</span></span></a> '+
+                                '<a href="#" id="giftblaster" class="sexy_button_new red short"><span><span>Bomber</span></span></a> '+
                                 '<a href="#" id="giftcollector" class="sexy_button_new green short"><span><span>Collector</span></span></a> '+
                                 '<a href="#" id="quickheal" class="sexy_button_new green short"><span><span>QuickHeal</span></span></a> '+
                                 '<a href="#" id="propertymanager" class="sexy_button_new green short"><span><span>Craft</span></span></a> '+

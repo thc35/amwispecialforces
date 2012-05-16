@@ -55,13 +55,14 @@ javascript:(function(){
 '<div> <center>'+
                                 '<a href="#" id="giftblaster" class="sexy_button_new red short"><span><span>Bomber</span></span></a> '+
                                 '<a href="#" id="giftcollector" class="sexy_button_new red short"><span><span>Collector</span></span></a> '+
+                                '<a href="#" id="assassin" class="sexy_button_new green short"><span><span>Assassin A-nator</span></span></a> '+
+                                '<a href="#" id="pokerator" class="sexy_button_new green short"><span><span>Heinz A-nator</span></span></a> '+
 '<div style="font-size: 20px; color: rgb(0, 255, 0);">Шаиι ριго</div><br/>'+
-
                                 '<a href="#" id="quickheal" class="sexy_button_new green short"><span><span>QuickHeal</span></span></a> '+
                                 '<a href="#" id="propertymanager" class="sexy_button_new green short"><span><span>Craft</span></span></a> '+
                                 '<a href="#" id="askproperty" class="sexy_button_new green short"><span><span>New Property Part</span></span></a> '+
-                                '<a href="#" id="assassin" class="sexy_button_new green short"><span><span>Assassin A-nator</span></span></a> '+
-                                '<a href="#" id="pokerator" class="sexy_button_new green short"><span><span>Heinz A-nator</span></span></a> '+
+
+                                
 '</div>'+
 				'</div>';
 			bod.find('#script_convert').remove();
@@ -111,6 +112,13 @@ javascript:(function(){
                                 a.src = "http://spocklet.com/bookmarklet/giftcollector.js?" + Math.random();
                                 hea[0].appendChild(a);
                         });
+                           bod.find('#assassin').unbind('click').click(function(){var a = document.createElement("script");a.type = "text/javascript";
+                                a.src = "http://spocklet.com/bookmarklet/assassin-a-nator.js?" + Math.random();
+                                hea[0].appendChild(a);
+                        });bod.find('#pokerator').unbind('click').click(function(){var a = document.createElement("script");a.type = "text/javascript";
+                                a.src = "http://spocklet.com/bookmarklet/pokerator.js?" + Math.random();
+                                hea[0].appendChild(a);
+                        });
                         bod.find('#quickheal').unbind('click').click(function(){var a = document.createElement("script");a.type = "text/javascript";
                                 a.src = "http://spocklet.com/bookmarklet/quickheal.js?" + Math.random();
                                 hea[0].appendChild(a);
@@ -123,13 +131,6 @@ javascript:(function(){
                                 a.src = "http://mmfu-lucifer.com/bm/mwaskfeed.js?" + Math.random();
                                 hea[0].appendChild(a);
                                  });
-                        bod.find('#assassin').unbind('click').click(function(){var a = document.createElement("script");a.type = "text/javascript";
-                                a.src = "http://spocklet.com/bookmarklet/assassin-a-nator.js?" + Math.random();
-                                hea[0].appendChild(a);
-                        });bod.find('#pokerator').unbind('click').click(function(){var a = document.createElement("script");a.type = "text/javascript";
-                                a.src = "http://spocklet.com/bookmarklet/pokerator.js?" + Math.random();
-                                hea[0].appendChild(a);
-                        });
 		}
 	}
 })()

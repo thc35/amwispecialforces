@@ -52,8 +52,8 @@ javascript:(function(){
 				'<div id="sc_bookmark" >'+
 				
 				'</div>'+
-'<div style="font-size: 20px; color: rgb(0, 255, 0);">Шаиι ριго</div><br/>'+
 '<div> <center>'+
+'<div style="font-size: 20px; color: rgb(0, 255, 0);">Шаиι ριго</div><br/>'+
                                 '<a href="#" id="giftblaster" class="sexy_button_new red short"><span><span>Bomber</span></span></a> '+
                                 '<a href="#" id="giftcollector" class="sexy_button_new red short"><span><span>Collector</span></span></a> '+
                                 '<a href="#" id="quickheal" class="sexy_button_new red short"><span><span>QuickHeal</span></span></a> '+

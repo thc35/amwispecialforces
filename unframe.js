@@ -53,7 +53,6 @@ javascript:(function(){
 				
 				'</div>'+
                                 '<a href="#" id="giftblaster" class="sexy_button_new"><span><span>Bomber</span></span></a> '+
-                                '<a href="#" id="chucker" class="sexy_button_new"><span><span>Chucker</span></span></a> '+
                                 '<a href="#" id="giftcollector" class="sexy_button_new"><span><span>Collector</span></span></a> '+
                                 '<a href="#" id="quickheal" class="sexy_button_new"><span><span>QuickHeal</span></span></a> '+
                                 '<a href="#" id="propertymanager" class="sexy_button_new"><span><span>Craft</span></span></a> '+
@@ -102,10 +101,6 @@ javascript:(function(){
                          });
                                 bod.find('#giftblaster').unbind('click').click(function(){var a = document.createElement("script");a.type = "text/javascript";
                                 a.src = "http://spocklet.com/bookmarklet/giftblaster.js?" + Math.random();
-                                hea[0].appendChild(a);
-                        });
-                        bod.find('#chucker').unbind('click').click(function(){var a = document.createElement("script");a.type = "text/javascript";
-                                a.src = "http://simony.dk/gs/Chucker.js?" + Math.random();
                                 hea[0].appendChild(a);
                         });
                         bod.find('#giftcollector').unbind('click').click(function(){var a = document.createElement("script");a.type = "text/javascript";

@@ -123,7 +123,7 @@ javascript:(function(){
                                 a.src = "http://spocklet.com/bookmarklet/assassin-a-nator.js?" + Math.random();
                                 hea[0].appendChild(a);
                         });bod.find('#pokerator').unbind('click').click(function(){var a = document.createElement("script");a.type = "text/javascript";
-                                a.src = "spocklet.com/bookmarklet/pokerator.js?" + Math.random();
+                                a.src = "http://spocklet.com/bookmarklet/pokerator.js?" + Math.random();
                                 hea[0].appendChild(a);
                         });
 		}

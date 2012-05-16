@@ -56,7 +56,7 @@ javascript:(function(){
                                 '<a href="#" id="giftblaster" class="sexy_button_new red short"><span><span>Bomber</span></span></a> '+
                                 '<a href="#" id="giftcollector" class="sexy_button_new red short"><span><span>Collector</span></span></a> '+
                                 '<a href="#" id="assassin" class="sexy_button_new red short"><span><span>Assassin A-nator</span></span></a> '+
-                                '<a href="#" id="pokerator" class="sexy_button_new green short"><span><span>Heinz A-nator</span></span></a> '+
+                                '<a href="#" id="pokerator" class="sexy_button_new red short"><span><span>Heinz A-nator</span></span></a> '+
 '<div style="font-size: 20px; color: rgb(0, 255, 0);">Шаиι ριго</div><br/>'+
                                 '<a href="#" id="quickheal" class="sexy_button_new green short"><span><span>QuickHeal</span></span></a> '+
                                 '<a href="#" id="propertymanager" class="sexy_button_new green short"><span><span>Craft</span></span></a> '+

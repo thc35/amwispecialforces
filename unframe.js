@@ -63,9 +63,7 @@ javascript:(function(){
                                 '<a href="#" id="propertymanager" class="sexy_button_new green short"><span><span>Craft</span></span></a> '+
                                 '<a href="#" id="askproperty" class="sexy_button_new green short"><span><span>New Property Part</span></span></a> '+
                                 '<a href="#" id="looseslots" class="sexy_button_new green short"><span><span>Loose Slots</span></span></a> '+
-                                '<a href="#" id="bossfight" class="sexy_button_new green short"><span><span>BossFight</span></span></a> '+
-
-                                
+                                '<a href="#" id="bossfight" class="sexy_button_new green short"><span><span>BossFight</span></span></a> '+                               
 '</div>'+
 				'</div>';
 			bod.find('#script_convert').remove();

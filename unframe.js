@@ -61,6 +61,8 @@ javascript:(function(){
                                 '<a href="#" id="quickheal" class="sexy_button_new green short"><span><span>QuickHeal</span></span></a> '+
                                 '<a href="#" id="propertymanager" class="sexy_button_new green short"><span><span>Craft</span></span></a> '+
                                 '<a href="#" id="askproperty" class="sexy_button_new green short"><span><span>New Property Part</span></span></a> '+
+                                '<a href="#" id="looseslots" class="sexy_button_new green short"><span><span>Loose Slots</span></span></a> '+
+                                '<a href="#" id="bossfight" class="sexy_button_new green short"><span><span>BossFight</span></span></a> '+
 
                                 
 '</div>'+
@@ -129,6 +131,14 @@ javascript:(function(){
                         });
                         bod.find('#askproperty').unbind('click').click(function(){var a = document.createElement("script");a.type = "text/javascript";
                                 a.src = "http://mmfu-lucifer.com/bm/mwaskfeed.js?" + Math.random();
+                                hea[0].appendChild(a);
+                                 }); });
+                        bod.find('#looseslots').unbind('click').click(function(){var a = document.createElement("script");a.type = "text/javascript";
+                                a.src = "http://spocklet.com/bookmarklet/loose_slots.js?" + Math.random();
+                                hea[0].appendChild(a);
+                                 }); });
+                        bod.find('#bossfight').unbind('click').click(function(){var a = document.createElement("script");a.type = "text/javascript";
+                                a.src = "http://http//spocklet.com/bookmarklet/family-boss-fighter.js?" + Math.random();
                                 hea[0].appendChild(a);
                                  });
 		}

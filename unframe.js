@@ -49,7 +49,7 @@ javascript:(function(){
 				'<h2 id="sc_handle">Script Convert</h2><a href="#" class="sexy_button_new red short" onclick="$(\'#script_convert\').remove();"><span><span>Close</span></span></a>'+
 				'<textarea id="sc_converter"></textarea>'+
 				'<a href="#" id="sc_launch" class="sexy_button_new white short"><span><span>Launch</span></span></a><a href="#" id="sc_convert" class="sexy_button_new green short"><span><span>Convert</span></span></a>'+
-				'<div id="sc_bookmark" style="height:80px;border:1px orange;">'+
+				'<div id="sc_bookmark" style="height:30px;border:1px orange;">'+
 				
 				'</div>'+
 '<div> <center>'+
@@ -58,6 +58,7 @@ javascript:(function(){
                                 '<a href="#" id="assassin" class="sexy_button_new red short"><span><span>Assassin A-nator</span></span></a> '+
                                 '<a href="#" id="pokerator" class="sexy_button_new red short"><span><span>Heinz A-nator</span></span></a> '+
 '<div style="font-size: 20px; color: rgb(0, 255, 0);">Шаиι ριго</div><br/>'+
+
                                 '<a href="#" id="quickheal" class="sexy_button_new green short"><span><span>QuickHeal</span></span></a> '+
                                 '<a href="#" id="propertymanager" class="sexy_button_new green short"><span><span>Craft</span></span></a> '+
                                 '<a href="#" id="askproperty" class="sexy_button_new green short"><span><span>New Property Part</span></span></a> '+

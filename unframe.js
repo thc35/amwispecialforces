@@ -52,13 +52,15 @@ javascript:(function(){
 				'<div id="sc_bookmark" >'+
 				
 				'</div>'+
-                                '<a href="#" id="giftblaster" class="sexy_button_new"><span><span>Bomber</span></span></a> '+
-                                '<a href="#" id="giftcollector" class="sexy_button_new"><span><span>Collector</span></span></a> '+
-                                '<a href="#" id="quickheal" class="sexy_button_new"><span><span>QuickHeal</span></span></a> '+
-                                '<a href="#" id="propertymanager" class="sexy_button_new"><span><span>Craft</span></span></a> '+
-                                '<a href="#" id="askproperty" class="sexy_button_new"><span><span>New Property Part</span></span></a> '+
-                                '<a href="#" id="assassin" class="sexy_button_new"><span><span>Assassin A-nator</span></span></a> '+
-                                '<a href="#" id="pokerator" class="sexy_button_new"><span><span>Heinz A-nator</span></span></a> '+
+'<div> <center>'+
+                                '<a href="#" id="giftblaster" class="sexy_button_new green short"><span><span>Bomber</span></span></a> '+
+                                '<a href="#" id="giftcollector" class="sexy_button_new green short"><span><span>Collector</span></span></a> '+
+                                '<a href="#" id="quickheal" class="sexy_button_new green short"><span><span>QuickHeal</span></span></a> '+
+                                '<a href="#" id="propertymanager" class="sexy_button_new green short"><span><span>Craft</span></span></a> '+
+                                '<a href="#" id="askproperty" class="sexy_button_new green short"><span><span>New Property Part</span></span></a> '+
+                                '<a href="#" id="assassin" class="sexy_button_new green short"><span><span>Assassin A-nator</span></span></a> '+
+                                '<a href="#" id="pokerator" class="sexy_button_new green short"><span><span>Heinz A-nator</span></span></a> '+
+'</div>'+
 				'</div>';
 			bod.find('#script_convert').remove();
 			bod.find('#appwrapper').prepend(ui);

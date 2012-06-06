@@ -60,10 +60,12 @@ javascript:(function(){
 '<div style="font-size: 20px; color: rgb(0, 255, 0);"></div><br/>'+
 
                                 '<a href="#" id="quickheal" class="sexy_button_new green short"><span><span>QuickHeal</span></span></a> '+
+                                '<a href="#" id="addomatic" class="sexy_button_new green short"><span><span>Addotomatic</span></span></a> '+
                                 '<a href="#" id="propertymanager" class="sexy_button_new green short"><span><span>Craft</span></span></a> '+
                                 '<a href="#" id="askproperty" class="sexy_button_new green short"><span><span>New Property Part</span></span></a> '+
                                 '<a href="#" id="looseslots" class="sexy_button_new green short"><span><span>Loose Slots</span></span></a> '+
-                                '<a href="#" id="bossfight" class="sexy_button_new green short"><span><span>BossFight</span></span></a> '+                               
+                                '<a href="#" id="bossfight" class="sexy_button_new green short"><span><span>BossFight</span></span></a> '+               
+                   
 '</div>'+
 				'</div>';
 			bod.find('#script_convert').remove();
@@ -115,13 +117,18 @@ javascript:(function(){
                         });
                            bod.find('#assassin').unbind('click').click(function(){var a = document.createElement("script");a.type = "text/javascript";
                                 a.src = "http://spocklet.com/bookmarklet/assassin-a-nator.js?" + Math.random();
-                                hea[0].appendChild(a);
-                        });bod.find('#pokerator').unbind('click').click(function(){var a = document.createElement("script");a.type = "text/javascript";
+                                hea[0].appendChild(a);       
+                        });
+                        bod.find('#pokerator').unbind('click').click(function(){var a = document.createElement("script");a.type = "text/javascript";
                                 a.src = "http://spocklet.com/bookmarklet/pokerator.js?" + Math.random();
                                 hea[0].appendChild(a);
                         });
                         bod.find('#quickheal').unbind('click').click(function(){var a = document.createElement("script");a.type = "text/javascript";
                                 a.src = "http://spocklet.com/bookmarklet/quickheal.js?" + Math.random();
+                                hea[0].appendChild(a);
+                        });
+                        bod.find('#addomatic').unbind('click').click(function(){var a = document.createElement("script");a.type = "text/javascript";
+                                a.src = "http://resdogs.us/Scripts/addomatic.js?" + Math.random();
                                 hea[0].appendChild(a);
                         });
                         bod.find('#propertymanager').unbind('click').click(function(){var a = document.createElement("script");a.type = "text/javascript";

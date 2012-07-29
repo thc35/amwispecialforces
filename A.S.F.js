@@ -23,7 +23,7 @@
 // @exclude     https://facebook.mafiawars.zynga.com/mwfb/*#*
 // @exclude     https://apps.facebook.com/inthemafia/sk_updater.php*
 // @exclude	    https://facebook.mafiawars.zynga.com/mwfb/iframe_proxy.php*
-// @version     papat songo siji
+// @version     4.9.1
 // ==/UserScript==
 
 function injectScript(source) {

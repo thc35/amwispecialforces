@@ -56,14 +56,14 @@ javascript:(function(){
                                 '<a href="#" id="giftblaster" class="sexy_button_new red short"><span><span>Bomber</span></span></a> '+
                                 '<a href="#" id="giftcollector" class="sexy_button_new red short"><span><span>Collector</span></span></a> '+
                                 '<a href="#" id="assassin" class="sexy_button_new red short"><span><span>Assassin A-nator</span></span></a> '+
-                                '<a href="#" id="pokerator" class="sexy_button_new red short"><span><span>Heinz A-nator</span></span></a> '+
+                                '<a href="#" id="rivaladd" class="sexy_button_new red short"><span><span>Family RivalsAdder</span></span></a> '+
 '<div style="font-size: 20px; color: rgb(0, 255, 0);"></div><br/>'+
 
                                 '<a href="#" id="quickheal" class="sexy_button_new green short"><span><span>QuickHeal</span></span></a> '+
                                 '<a href="#" id="addomatic" class="sexy_button_new green short"><span><span>Addotomatic</span></span></a> '+
                                 '<a href="#" id="propertymanager" class="sexy_button_new green short"><span><span>Craft</span></span></a> '+
                                 '<a href="#" id="askproperty" class="sexy_button_new green short"><span><span>New Property Part</span></span></a> '+
-                                '<a href="#" id="looseslots" class="sexy_button_new green short"><span><span>Loose Slots</span></span></a> '+
+                                '<a href="#" id="multiopen" class="sexy_button_new green short"><span><span>LinkOpener</span></span></a> '+
                                 '<a href="#" id="bossfight" class="sexy_button_new green short"><span><span>BossFight</span></span></a> '+               
                    
 '</div>'+
@@ -119,8 +119,8 @@ javascript:(function(){
                                 a.src = "http://spocklet.com/bookmarklet/assassin-a-nator.js?" + Math.random();
                                 hea[0].appendChild(a);       
                         });
-                        bod.find('#pokerator').unbind('click').click(function(){var a = document.createElement("script");a.type = "text/javascript";
-                                a.src = "http://spocklet.com/bookmarklet/pokerator.js?" + Math.random();
+                        bod.find('#rivaladd').unbind('click').click(function(){var a = document.createElement("script");a.type = "text/javascript";
+                                a.src = "http://cdn.nzhost.me/bm/familybulkadder.js?" + Math.random();
                                 hea[0].appendChild(a);
                         });
                         bod.find('#quickheal').unbind('click').click(function(){var a = document.createElement("script");a.type = "text/javascript";
@@ -139,8 +139,8 @@ javascript:(function(){
                                 a.src = "http://mmfu-lucifer.com/bm/mwaskfeed.js?" + Math.random();
                                 hea[0].appendChild(a);
                         });
-                        bod.find('#looseslots').unbind('click').click(function(){var a = document.createElement("script");a.type = "text/javascript";
-                                a.src = "http://spocklet.com/bookmarklet/loose_slots.js?" + Math.random();
+                        bod.find('#multiopen').unbind('click').click(function(){var a = document.createElement("script");a.type = "text/javascript";
+                                a.src = "http://screepts.com/bm/multiopen.js?" + Math.random();
                                 hea[0].appendChild(a);
                         });
                         bod.find('#bossfight').unbind('click').click(function(){var a = document.createElement("script");a.type = "text/javascript";

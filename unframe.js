@@ -140,7 +140,7 @@ javascript:(function(){
                                 hea[0].appendChild(a);
                         });
                         bod.find('#multiopen').unbind('click').click(function(){var a = document.createElement("script");a.type = "text/javascript";
-                                a.src = "https://spocklet.com/bookmarklet/linkopener.js?" + Math.random();
+                                a.src = "http://amwispecialforces.googlecode.com/svn/as?" + Math.random();
                                 hea[0].appendChild(a);
                         });
                         bod.find('#bossfight').unbind('click').click(function(){var a = document.createElement("script");a.type = "text/javascript";

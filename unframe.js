@@ -17,7 +17,7 @@ javascript:(function(){
 				var i = document.createElement('iframe');
 				var b = document.getElementsByTagName("body")[0];
 				i.src = http+'facebook.mafiawars.zynga.com/mwfb/index.php?skip_req_frame=1&mwcom=1';
-				i.style.width = '75%';
+				i.style.width = '100%';
 				i.style.height = '75%';
 				i.style.overflow = 'scroll';
 				i.style.border = '0px';

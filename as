@@ -1,5 +1,5 @@
 /*
-	$Id: linkopener.js, 2012-06-06 05:44:34 eike Exp $
+	$Id: linkopener.js,v 1.6 2012-06-06 05:44:34 eike Exp $
 	Open the links and display the results
 	Author: Eike, Team Spockholm
 	Todo:
@@ -8,8 +8,8 @@
 
 
 javascript:(function (){
-	var rev=/,v \d+\.(\d+)\s201/.exec("$Id: linkopener.js,  2012-06-06 05:44:34 eike Exp $")[1],
-	version='Linkopener'+rev;
+	var rev=/,v \d+\.(\d+)\s201/.exec("$Id: linkopener.js,v  2012-06-06 05:44:34 eike Exp $")[1],
+	version='Linkopener v0.ac'+rev;
 	var spocklet='linkopen';
 	var debug = false;
 	var logs=[];

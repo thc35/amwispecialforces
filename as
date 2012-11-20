@@ -8,7 +8,7 @@
 
 
 javascript:(function (){
-	var rev=/,v \d+\.(\d+)\s201/.exec("$Id: linkopener.js,v  2012-06-06 05:44:34 eike Exp $")[1],
+	var rev=/,v \d+\.(\d+)\s201/.exec("$Id: linkopener.js,v 1.6 2012-06-06 05:44:34 eike Exp $")[1],
 	version='Linkopener v0.ac'+rev;
 	var spocklet='linkopen';
 	var debug = false;

@@ -1,20 +1,4 @@
-//////////////////////////////////////////////////////////////////////////////////////////////
-//          This code was brought to you by todays letters kids 666                         //
-//                http://screepts.com muahahahaha                                           //
-//                      if you love it share it!!!                                          //
-//{Don't be evil & remove my header or anyone else, love it, leave it & share it...}        //
-//                                                                                          //
-//////////////////////////////////////////////////////////////////////////////////////////////
-// Copyright(C) 2011 Luke Hardiman, luke@hardiman.co.nz                                     //
-// Licensed under the MIT license: http://www.opensource.org/licenses/mit-license.php       //
-//////////////////////////////////////////////////////////////////////////////////////////////
-//Notes:
-//This is a modification of the orginal mission link script from Team Spockholm, http://spocklet.com/bookmarklet/missionlink.js
-//This modified version was created for people using MWAP & users requesting for links to be created on the fly. 
-//Any problems with this mod please contact me @ luke@hardiman.co.nz
-//All Credits go to :
-/*
-	$Id: missionlink.js,v 1.34 2012-03-17 06:16:49 eike Exp $
+ $Id: missionlink.js,v 1.34 2012-03-17 06:16:49 eike Exp $
 	Mission link generator
 
 Script is old needs a rewrite, shame....

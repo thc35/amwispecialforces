@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name Mdemonic
-// @description Enjoy fighting in Mafia Wars.
+// @name MDemonic 9.9.3
+// @description Updated
 // @include http://facebook.mafiawars.zynga.com/mwfb/remote/html_server.php*
 // @include https://facebook.mafiawars.zynga.com/mwfb/remote/html_server.php*
-// @version 0.2.1
+// @version 993
 // ==/UserScript==
 {
 // inject function so that in will run in the same context as other scripts on the page

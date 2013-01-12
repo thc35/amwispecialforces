@@ -3,7 +3,7 @@
 // @description Updated
 // @include http://facebook.mafiawars.zynga.com/mwfb/remote/html_server.php*
 // @include https://facebook.mafiawars.zynga.com/mwfb/remote/html_server.php*
-// @version 9.9.3
+// @version 9.9.4
 // ==/UserScript==
 {
 // inject function so that in will run in the same context as other scripts on the page
